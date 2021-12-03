@@ -1,0 +1,95 @@
+/* tablet */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .row {
+        margin: 0 -16px;
+    }
+
+    .col {
+        padding: 0 8px;
+    }
+    .m-0 {display: none;}
+    .m-1 {width: 8.33333%;}
+    .m-2 {width: 16.66667%;}
+    .m-3 {width: 25%;}
+    .m-4 {width: 33.33333%;}
+    .m-5 {width: 41.66667%;}
+    .m-6 {width: 50%;}
+    .m-7 {width: 58.33333%;}
+    .m-8 {width: 66.66667%;}
+    .m-9 {width: 75%;}
+    .m-10 {width: 83.33333%;}
+    .m-11 {width: 91.66667%;}
+    .m-12 {width: 100%;}   
+    #main {
+        background-color: #33353d;
+    }
+        /* start menu bar  */
+    .nav li a {
+        color: #e0e3e3;
+    }
+         /* begin manu bar  */
+         /* start header  */
+    #header {
+        border-bottom: 2px #e4e4e4 solid;
+        background-color: rgb(96, 186, 228);
+        width: 100%;
+        height: 320px;
+        position: relative;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        margin-left: 0%;
+        padding-bottom: -10px;
+    }
+    #header .nav1 {
+        color:#323333;
+        font-size: 40px;
+        position: absolute;
+        margin-left: -5%;
+        }
+    #header .nav2 {
+        color: #323333;
+        position: absolute;
+        top: 58%;
+        font-size: 30px;
+        left:22%;
+    }
+    #header .header_img {
+        display: none;
+    }
+         /* begin header */
+         /* start image  */
+    #container {
+        background-color: #33353d;
+        height: 100%;
+        padding-bottom: 5%;
+    }
+    #container h2 {
+        font-size: 40px;
+        margin-left: 10%;
+    }
+    #container .row_1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-left: 2%;
+        margin-bottom: 4%;
+    }
+    #bt_imageeffect > .m-6 {
+        width: 30%;
+    }
+    #bt_imageeffect .caption {
+        margin-bottom: 10%;
+    }
+    .galleryItem img {
+        width: 700px;
+        height: 400px;
+        margin-left: -15%;
+    }
+    /* begin image  */
+    /* start footer  */
+    #site_nav .row {
+        margin: 0;
+    }
+}
+
